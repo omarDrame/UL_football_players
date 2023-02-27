@@ -1,5 +1,5 @@
 ---
-title: "Statistical learing HW 1"
+title: "Unsupervised tools for football players "
 author: "Dramé Omar"
 date: '17/10/2022'
 output:
@@ -502,4 +502,4 @@ fviz_mclust(object = res.Mclust, geom = "point",
 Trying to guess the real are best position of a player looking at it stats/game seems to work using most of the above tools, we can clearly see which for each position who excels the most but we still have to keep in mind that those stats have a enormous bias because you won't have the ability to express certain skills in certain position, imagine if we have a very good striker but the coach decides to play him defender we wouldn't be able to see where he plays best because his stats would mainly reflect the defensive responsibilities he has, this is the main problem with this data set analysis.
 
 # Inspirations :
-- All the notebooks seen in labs
+- All the notebooks seen in labs of UC3M, statistical leaning classes
